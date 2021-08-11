@@ -1,0 +1,19 @@
+public class Hello {
+	static int Multiply(int a, int b)
+	{
+		return a*b;
+	}
+	static double Multiply(double a, double b){
+		return a*b;	
+	}
+	
+	class Main{
+		
+	public static void main(String[] args){
+		System.out.println(MultiplyFun.Multiply(2,4));
+		system.out.println(MultiplyFun.Multiply(1.2,2.4));
+	}
+
+	}
+
+}
